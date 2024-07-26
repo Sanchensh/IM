@@ -14,12 +14,12 @@ public class ImApplication implements ApplicationRunner {
         SpringApplication.run(ImApplication.class, args);
     }
 
-    @Autowired
-    private ZimServer zimServer;
+//    @Autowired
+//    private ZimServer zimServer;
 
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        zimServer.start();
+//        zimServer.start();
     }
 }

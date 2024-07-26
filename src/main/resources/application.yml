@@ -4,7 +4,7 @@ spring:
 
 dubbo:
   application: IM
-  registry-address: 127.0.0.1:2181
+  registry-address: 192.168.247.132:2181
   group: default
 
 zim:
